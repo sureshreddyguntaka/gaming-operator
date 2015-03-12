@@ -11,5 +11,18 @@
 
     <artifactId>gaming-operator-api</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>io.udvi.gaming.common</groupId>
+            <artifactId>gaming-common-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.udvi.gaming.common</groupId>
+            <artifactId>gaming-common-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.udvi.rpc</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
+    </dependencies>
 </project>
